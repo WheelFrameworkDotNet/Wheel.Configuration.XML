@@ -1,0 +1,664 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wheel.Configuration.XML</name>
+    </assembly>
+    <members>
+        <member name="T:Wheel.Configuration.XML.ConfiguracionXmlManager`1">
+            <summary>
+            Representa un administrador para un archivo de configuración XML externo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>10/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <typeparam name="T">Tipo de la entidad que representa el archivo de configuración.</typeparam>
+        </member>
+        <member name="F:Wheel.Configuration.XML.ConfiguracionXmlManager`1.Configuracion">
+            <summary>
+            Entidad de configuración.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="F:Wheel.Configuration.XML.ConfiguracionXmlManager`1.FechaUltimaModificacion">
+            <summary>
+            Fecha de última modificación del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.NombreArchivoPorDefecto">
+            <summary>
+            Obtiene el nombre del archivo si no se especifica uno.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.NombreArchivoValidacionPorDefecto">
+            <summary>
+            Obtiene el nombre del archivo de esquema (XSD) si no se especifica uno.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.NombreArchivoConfiguracion">
+            <summary>
+            Obtiene el nombre del archivo que sirbe como clave para obtener su ruta mediante Wheel.Configuration.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.NombreArchivoValidacionConfiguracion">
+            <summary>
+            Obtiene el nombre del archivo de esquema (XSD) que sirbe como clave para obtener su ruta mediante Wheel.Configuration.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ValidarXmlSchema">
+            <summary>
+            Obtiene un valor que indica si el archivo de configuración XML debe ser validado mediante un XSD.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.RutaArchivo">
+            <summary>
+            Obtiene la ruta absoluta del archivo XML.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Wheel.Configuration.XML.ConfiguracionXmlManager`1.RutaArchivoEsquema">
+            <summary>
+            Obtiene la ruta absoluta del archivo de esquema XSD.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ValidarXml(System.Xml.XmlDocument)">
+            <summary>
+            Valida el archivo XML de forma manual.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="documento">Documento XML.</param>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerConfiguracion">
+            <summary>
+            Obtiene una entidad que representa el XML con la configuración cargada desde el archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerConfiguracion(System.String)">
+            <summary>
+            Obtiene una entidad que representa el XML con la configuración cargada desde la ruta del archivo especificada.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="ruta">Ruta del archivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerConfiguracion(System.String,System.String)">
+            <summary>
+            Obtiene una entidad que representa el XML con la configuración cargada desde la ruta del archivo especificada.
+            Además se solicita una ruta referencial con la cual se determina la ruta absoluta del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="rutaReferencial">Ruta referencial para determinar la ruta absoluta.</param>
+            <param name="ruta">Ruta del archivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.GuardarConfiguracion(`0)">
+            <summary>
+            Persiste la configuración encapsulada en una entidad, al archivo XML.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="config">Entidad representativa.</param>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.GuardarConfiguracion(`0,System.String)">
+            <summary>
+            Persiste la configuración encapsulada en una entidad, al archivo XML según la ruta señalada.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="config">Entidad representativa.</param>
+            <param name="ruta">Ruta del archivo.</param>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.GuardarConfiguracion(`0,System.String,System.String)">
+            <summary>
+            Persiste la configuración encapsulada en una entidad, al archivo XML según la ruta señalada.
+            Además se solicita una ruta referencial con la cual se determina la ruta absoluta del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="config">Entidad representativa.</param> 
+            <param name="rutaReferencial">Ruta referencial para determinar la ruta absoluta.</param>
+            <param name="ruta">Ruta del archivo.</param>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ValidarContraXmlSchema">
+            <summary>
+            Valida el archivo XML contra su esquema (XSD).
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ErrorAlValidar(System.Object,System.Xml.Schema.ValidationEventArgs)">
+            <summary>
+            Evento que relanza la excepción al ocurrir un error de validación en el archivo XML.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="sender">Objeto que inicia el evento.</param>
+            <param name="e">Argumento del evento.</param>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerXmlDocument(System.String)">
+            <summary>
+            Obtiene el archivo XML como un objeto de documento XML.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="ruta">Ruta del archivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerXmlSerializer">
+            <summary>
+            Obtiene el serializador XML del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerFileStreamForRead(System.String)">
+            <summary>
+            Obtiene el objeto FileStream en modo de léctura del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="ruta">Ruta el archivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.ObtenerFileStreamForWrite(System.String)">
+            <summary>
+            Obtiene el objeto FileStream en modo de escritura del archivo.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="ruta">Ruta el archivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.Deserialize(System.Xml.Serialization.XmlSerializer,System.IO.FileStream)">
+            <summary>
+            Deserializa un FileStream en una entidad representativa.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="serializer">Serializador XML para lectura.</param>
+            <param name="file">Archivo XML para lectura.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wheel.Configuration.XML.ConfiguracionXmlManager`1.Serialize(System.Xml.Serialization.XmlSerializer,System.IO.FileStream,`0)">
+            <summary>
+            Serializa una entidad representativa a un archivo XML en disco.
+            </summary>
+            <remarks>
+                <para>
+                    <h2 class="groupheader">Registro de versiones</h2>
+                    <ul>
+                        <li>1.0.0</li>
+                        <table>
+                            <tr style="font-weight: bold;">
+                                <td>Autor</td>
+                                <td>Fecha</td>
+                                <td>Descripción</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Abraham Hernández Bravo.</td>
+                                <td>07/11/2016</td>
+                                <td>Versión Inicial.</td>
+                            </tr>
+                        </table>
+                    </ul>
+                </para>
+            </remarks>
+            <param name="serializer">Serializador XML.</param>
+            <param name="file">Archivo XML para escribir.</param>
+            <param name="obj">Entidad con datos a persistir.</param>
+        </member>
+    </members>
+</doc>
